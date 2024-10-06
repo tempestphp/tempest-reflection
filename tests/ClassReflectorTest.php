@@ -11,6 +11,7 @@ use Tempest\Reflection\Tests\Fixtures\TestClassA;
 
 /**
  * @internal
+ * @small
  */
 final class ClassReflectorTest extends TestCase
 {

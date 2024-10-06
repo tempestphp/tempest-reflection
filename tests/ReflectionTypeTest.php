@@ -15,6 +15,7 @@ use Tempest\Reflection\TypeReflector;
 
 /**
  * @internal
+ * @small
  */
 final class ReflectionTypeTest extends TestCase
 {
