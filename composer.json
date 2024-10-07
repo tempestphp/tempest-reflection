@@ -1,5 +1,6 @@
 {
     "name": "tempest/reflection",
+    "description": "A component for reflection.",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
