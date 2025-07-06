@@ -172,7 +172,7 @@ final class ClassReflector implements Reflector
 
     private function memoize(string $key, Closure $closure): mixed
     {
-        if (! array_key_exists($key, $this->memoize)) {
+        if (! isset($this->memoize[$key])) {
             $this->memoize[$key] = $closure();
         }
 
